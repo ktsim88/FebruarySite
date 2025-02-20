@@ -1,0 +1,17 @@
+.timeline {
+    background-color: rgb(159, 159, 255);
+}
+.timeline-title {
+    padding-bottom: 50px;
+}
+.line {
+    background-color: black;
+    height: 5px;
+    position: relative;
+    transform: translateY(20px);
+}
+.popover-facts {
+    align-items: center;
+    position: relative;
+    bottom: 25px;
+}
