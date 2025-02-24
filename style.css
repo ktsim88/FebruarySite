@@ -15,3 +15,15 @@
     position: relative;
     bottom: 25px;
 }
+#trivia {
+    background-color: rgb(191, 191, 255);
+    border: 5px black dotted;
+}
+.form-label {
+    text-align: start;
+    margin-left: 15px;
+}
+.question {
+    background-color: rgba(242, 250, 255, 0.473);
+    margin: 5px;
+}
