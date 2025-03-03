@@ -13,12 +13,9 @@ function generateQuote() {
     } else if (randomQuote === 2) {
         quote = `"The only thing we have to fear is fear itself."`
     } else if (randomQuote === 3) {
-        quote = `"Freedom of speech...Freedom of worship...Freedom from want...Freedom from fear."
-`
-    } else if (randomQuote === 4) {
-        quote = `"I have seen war. I have seen war on land and sea. I have seen blood running from the wounded...I have seen the dead in the mud. I have seen cities destroyed...I have seen children starving. I have seen the agony of mothers and wives. I hate war."`
+        quote = `"Freedom of speech...Freedom of worship...Freedom from want...Freedom from fear."`
     } else {
-        return
+        quote = `"I have seen war. I have seen war on land and sea. I have seen blood running from the wounded...I have seen the dead in the mud. I have seen cities destroyed...I have seen children starving. I have seen the agony of mothers and wives. I hate war."`
     }
     
     document.getElementById('quote').textContent = quote;
