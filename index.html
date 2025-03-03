@@ -16,6 +16,7 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="https://use.typekit.net/zpz8lkj.css">
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -65,7 +66,7 @@
                     <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Franklin D. Roosevelt</h1>
                     <p class="lead" id="quote"></p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" onclick="generateQuote()">Generate Quote</button>
+                      <button type="button" class="btn btn-lg px-4 me-md-2 w-100 quoteBtn" onclick="generateQuote()">Generate Quote</button>
                     </div>
                   </div>
                 </div>
@@ -78,34 +79,39 @@
                             <h2>Timeline</h2>
                         <h5>Overview of Events</h5>
                         </div>
-                        <ul class="list-group d-lg-none d-block">
-                          <li class="list-group-item my-1">An item</li>
-                          <li class="list-group-item my-1">A second item</li>
-                          <li class="list-group-item my-1">A third item</li>
-                          <li class="list-group-item my-1">A fourth item</li>
-                          <li class="list-group-item my-1">And a fifth one</li>
+                        <ul class="list-group d-lg-none d-block text-start">
+                          <li class="list-group-item my-1">1882<br>FDR was born on January 30, 1882 in Hyde Park, NY</li>
+                          <li class="list-group-item my-1">1921 <br>FDR was diagnosed with polio which paralysed him from his waist down.</li>
+                          <li class="list-group-item my-1">1932 <br>FDR won as the president of the US"</li>
+                          <li class="list-group-item my-1">1933 FDR gave his speech during his Inaugural Address and told Americans to not fear.</li>
+                          <li class="list-group-item my-1">1937 <br>FDR tried to switch out all of the court judges (Court-Packing Bill) which was very controversal</li>
+                          <li class="list-group-item my-1">1941 <br>FDR declared war on Japan after the Attack on Pearl Harbor.</li>
+                          <li class="list-group-item my-1">1945 <br>FDR died in office. He had cerebal hemorrhage and he died while he was in Gerogia.</li>
+
+
                         </ul>
                         <div class="line"></div>
                     <div class="popover-facts d-none d-lg-block my-4 py-1">
-                        <button type="button" class="btn btn-secondary mx-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+                        <button type="button" class="btn mx-5" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="FDR was born on January 30, 1882 in Hyde Park, NY
+                        ">
                             1882
                           </button>
-                        <button type="button" class="btn btn-secondary mx-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+                        <button type="button" class="btn   mx-5" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="FDR was diagnosed with polio which paralysed him from his waist down.">
                             1921
                           </button>
-                          <button type="button" class="btn btn-secondary mx-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+                          <button type="button" class="btn   mx-5" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="FDR won as the president of the US">
                             1932
                           </button>
-                          <button type="button" class="btn btn-secondary mx-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+                          <button type="button" class="btn   mx-5" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="FDR gave his speech during his Inaugural Address and told Americans to not fear.">
                             1933
                           </button>
-                          <button type="button" class="btn btn-secondary mx-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+                          <button type="button" class="btn   mx-5" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="FDR tried to switch out all of the court judges (Court-Packing Bill) which was very controversal.">
                             1937
                           </button>
-                          <button type="button" class="btn btn-secondary mx-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+                          <button type="button" class="btn   mx-5" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="FDR declared war on Japan after the Attack on Pearl Harbor.">
                             1941
                           </button>
-                          <button type="button" class="btn btn-secondary mx-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+                          <button type="button" class="btn   mx-5" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="FDR died in office. He had cerebal hemorrhage and he died while he was in Gerogia">
                             1945
                           </button>
                     </div>

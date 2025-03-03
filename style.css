@@ -1,5 +1,7 @@
+/* timeline */
 .timeline {
     background-color: rgb(159, 159, 255);
+    border: 5px black dotted;
 }
 .timeline-title {
     padding-bottom: 50px;
@@ -15,6 +17,7 @@
     position: relative;
     bottom: 25px;
 }
+/* trivia */
 #trivia {
     background-color: rgb(191, 191, 255);
     border: 5px black dotted;
@@ -26,4 +29,50 @@
 .question {
     background-color: rgba(242, 250, 255, 0.473);
     margin: 5px;
+}
+
+/* text */
+h1, h3, h5, h6 {
+    font-family: "ivypresto-display", serif;
+font-weight: 600;
+font-style: normal;
+}
+body {
+    font-family: "urbana", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+.lead {
+    font-family: "commerce", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+nav {
+    font-family: "urbana", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+body {
+    background-color: rgb(138, 154, 255);
+}
+/* images */
+.card-img-top, img {
+    border: 3px black dashed;
+}
+.card {
+    border: 2px solid black;
+    background-color: lightsteelblue;
+}
+
+button, .btn {
+    background-color: blanchedalmond;
+}
+.quoteBtn, .btnTrivia {
+    background-color: rgb(200, 155, 110);
+    border: 3px dotted black ;
+}
+.quoteBtn:hover, .btnTrivia:hover {
+    border: 3px dotted black ;
+    background-color: burlywood;
+    transition-duration: .5s;
 }
